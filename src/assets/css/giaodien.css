@@ -1,0 +1,964 @@
+
+.but_farm1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but_farm1 button {
+    margin-top: 22px;
+    background-color: #ff7a9d;
+}
+
+.banner_roadmapmobile {
+    display: none;
+}
+
+.farm_gamemobile {
+    display: none;
+}
+
+.box-in4 img {
+    width: 260px !important;
+    position: relative;
+}
+
+.box-in4 h3 {
+    width: 260px !important;
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    text-align: center;
+}
+
+.Rabbiz_farm img {
+    position: absolute;
+    top: 0%;
+    left: 76%;
+}
+
+.banner_product {
+    background-image: url('../rabbiz/background.png');
+    width: 100%;
+    height: 500px;
+}
+
+.banner_product_left {
+    width: 50%;
+    float: left;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_product_left img {
+    width: 400px;
+    height: 400px;
+}
+
+.banner_product_right {
+    width: 50%;
+    float: left;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_product_right ul li {
+    list-style-type: none;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.cha {
+    background-color: white;
+    border: #ff7a9d solid 2px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.con {
+    background-color: #ff7a9d;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner_product_right ul li i {
+    background-color: #febece;
+}
+
+.footer_product {
+    background-color: #ff7a9d;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_product i {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.number {
+    width: 100%;
+    height: 70px;
+    background-color: #e82c8b;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #e82c8b;
+}
+
+.cha2 {
+    background-color: #e82c8b;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha2 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+    position: relative;
+}
+
+.logo_roadmap {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #e82c8b;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.style_boder {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffc3c5, #ff9492, #ff6059, #ff1515);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder1 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffb0ce, #f86dca, #c927dd, #4e00ff);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder2 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffdcc3, #ffd974, #e3eb07, #0bff00);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder3 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffd6d0, #ffbea0, #ffad64, #ffa600);
+    position: absolute;
+    top: 110px;
+}
+
+.logo_roadmap i {
+    font-size: 70px;
+    color: white;
+}
+
+.number1 {
+    width: 100%;
+    height: 70px;
+    background-color: #0b4ba5;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #0b4ba5;
+}
+
+.cha3 {
+    background-color: #0b4ba5;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha3 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: -0.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+}
+
+.logo_roadmap1 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #0b4ba5;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap1 i {
+    font-size: 70px;
+    color: white;
+}
+
+.number2 {
+    width: 100%;
+    height: 70px;
+    background-color: #69bc38;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #69bc38;
+}
+
+.cha4 {
+    background-color: #69bc38;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha4 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+}
+
+.logo_roadmap2 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #69bc38;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap2 i {
+    font-size: 70px;
+    color: white;
+}
+
+.number3 {
+    width: 100%;
+    height: 70px;
+    background-color: #f7b103;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #f7b103;
+}
+
+.cha5 {
+    background-color: #f7b103;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha5 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+    border-radius: 3px 3px 0 0;
+}
+
+.logo_roadmap3 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #f7b103;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap3 i {
+    font-size: 70px;
+    color: white;
+}
+
+.banner_roadmap {
+    margin-top: 50px;
+}
+
+.farm_game {
+    margin-top: 50px;
+}
+
+.Rabbiz_farm {
+    width: 200px;
+    height: 250px;
+    background-color: #3b3b3b;
+    border-radius: 26px;
+    background-image: url('../rabbiz/background.png');
+    position: relative;
+}
+
+.Rabbiz_game {
+    width: 200px;
+    height: 200px;
+    background-color: #3b3b3b;
+}
+
+.title_farm {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_farm h4 {
+    color: #ff799d;
+}
+
+.underlined {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.text_farm {
+    text-align: center;
+}
+
+.text_farm p {
+    color: white;
+    margin-top: 20px;
+}
+
+.but_farm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.but_farm button {
+    background-color: #ff7a9d;
+}
+
+.all {
+    width: auto;
+}
+
+.rabbiz_token {
+    margin-top: 50px;
+}
+
+.more_in4 ul li {
+    list-style-type: none;
+    margin-top: 7px;
+    margin-left: -40px;
+    font-family: cursive;
+}
+
+.button_rabiz_token {
+    width: 100%;
+    height: 100px;
+}
+
+.button_rabiz_token button {
+    float: right;
+    display: block;
+    width: 170px;
+    height: 80px;
+    background-color: #febece;
+    border: 2px #e82c8b solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_rabiz_token button h5 {
+    color: #e82c8b;
+}
+
+.button_buy_token {
+    width: 100%;
+    height: 40px;
+}
+
+.button_buy_token button {
+    margin-top: 10px;
+    float: right;
+    display: block;
+    width: 120px;
+}
+
+.footer_roadmap {
+    background-color: #ff7a9d;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_roadmap i {
+    font-size: 45px;
+    color: white;
+}
+
+.main_roadmap {
+    width: 100%;
+    height: auto;
+}
+
+.main_roadmap img {
+    width: 100%;
+    position: relative;
+}
+
+.index1 h5 {
+    position: absolute;
+    top: 340%;
+    left: 7.5%;
+    text-align: center;
+}
+
+.index2 h5 {
+    position: absolute;
+    top: 275%;
+    left: 31%;
+    text-align: center;
+}
+
+.index3 h5 {
+    position: absolute;
+    top: 310%;
+    left: 53.5%;
+    text-align: center;
+}
+
+.index4 h5 {
+    position: absolute;
+    top: 275%;
+    left: 80.1%;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .box-in4 img {
+        width: 223px !important;
+        position: relative;
+    }
+    .but_farm1 button {
+        margin-top: 5px;
+        background-color: #ff7a9d;
+    }
+    .box-in4 h3 {
+        width: 168px !important;
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        text-align: center;
+        font-size: 21px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 72%;
+    }
+    .index1 h5 {
+        position: absolute;
+        top: 148%;
+        left: 7.2%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .index2 h5 {
+        position: absolute;
+        top: 125%;
+        left: 30.5%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .index4 h5 {
+        position: absolute;
+        top: 124%;
+        left: 80.1%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .index3 h5 {
+        position: absolute;
+        top: 138%;
+        left: 53.2%;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .but_farm1 button {
+        margin-top: 17px;
+        background-color: #ff7a9d;
+        font-size: 12px;
+    }
+    .banner_roadmapmobile {
+        display: none;
+    }
+    .footer_product i {
+        font-weight: 400;
+    }
+    .farm_gamemobile {
+        display: none;
+    }
+    .all {
+        width: 100%;
+    }
+    .box-in4 img {
+        width: 151px !important;
+        position: relative;
+    }
+    .box-in4 h3 {
+        width: 180px !important;
+        position: absolute;
+        top: 31%;
+        left: 2%;
+        /* text-align: center; */
+        font-size: 13px;
+    }
+    .banner_product_left img {
+        width: 350px;
+        height: 350px;
+    }
+    .banner_product_right ul li {
+        list-style-type: none;
+        font-family: cursive;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .index1 h5 {
+        position: absolute;
+        top: 160%;
+        left: 8%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 76%;
+        width: 72px !important;
+    }
+    .index2 h5 {
+        position: absolute;
+        top: 135%;
+        left: 31%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .index3 h5 {
+        position: absolute;
+        top: 148%;
+        left: 53.5%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .box-in4 h3 {
+        width: 180px !important;
+        position: absolute;
+        top: 31%;
+        left: 2%;
+        /* text-align: center; */
+        font-size: 13px;
+    }
+    .index4 h5 {
+        position: absolute;
+        top: 136%;
+        left: 80.5%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .title_farm h4 {
+        font-size: 23px;
+    }
+    .title_farm {
+        height: 50px;
+    }
+    .text_farm p {
+        color: white;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .but_farm button {
+        font-size: 14px;
+    }
+    .more_in4 ul li {
+        margin-top: 4px;
+        font-size: 11px;
+    }
+    .button_buy_token button {
+        margin-top: -15px;
+    }
+    .button_rabiz_token button {
+        width: 166px;
+        height: 63px;
+    }
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        margin-top: -43px;
+    }
+    .Rabbiz_farm {
+        height: 195px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 76%;
+        width: 72px !important;
+    }
+    .text_farm p {
+        color: white;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .but_farm button {
+        font-size: 12px;
+    }
+    .number, .number1, .number2, .number3 {
+        height: 45px;
+    }
+    .in4 h3 {
+        font-size: 16px;
+    }
+    .in4 {
+        height: 95px;
+    }
+    .logo_roadmap, .logo_roadmap1, .logo_roadmap2, .logo_roadmap3 {
+        height: 82px;
+    }
+    .style_boder, .style_boder1, .style_boder2, .style_boder3 {
+        top: 72px;
+    }
+    .underlined {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:414px) {
+    .banner_product_left img {
+        width: 200px;
+        height: 215px;
+    }
+    .banner_product_left img {
+        width: 200px;
+        height: 215px;
+        margin-top: -236px;
+        margin-left: 15px;
+    }
+    .banner_roadmap {
+        display: none;
+    }
+    .banner_roadmapmobile {
+        display: flex;
+        margin-top: 10px;
+    }
+    .farm_game {
+        display: none;
+    }
+    .farm_gamemobile {
+        display: flex;
+    }
+    .banner_product_right ul li {
+        font-size: 10px;
+    }
+    .banner_product_right ul {
+        margin-top: -210px;
+    }
+    .banner_product {
+        width: 100%;
+        height: 252px;
+    }
+    .con {
+        height: 5px;
+        width: 5px;
+    }
+    .cha {
+        height: 15px;
+        width: 15px;
+    }
+    .footer_product i {
+        color: white;
+        font-size: 13px;
+    }
+    .footer_product {
+        height: 30px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 83%;
+        width: 72px !important;
+    }
+    .Rabbiz_farm {
+        margin-top: 10px;
+    }
+    .button_rabiz_token button {
+        width: 107px;
+        height: 55px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .button_rabiz_token button h5 {
+        color: #e82c8b;
+        font-size: 11px;
+    }
+    .more_in4 ul li {
+        margin-top: 4px;
+        font-size: 7px;
+    }
+    .button_buy_token button {
+        margin-top: -38px;
+        width: 106px;
+        height: 55px;
+    }
+    .index1 h5 {
+        position: absolute;
+        top: 204%;
+        left: 8%;
+        text-align: center;
+        font-size: 6px;
+    }
+    .index2 h5 {
+        position: absolute;
+        top: 186%;
+        left: 31%;
+        text-align: center;
+        font-size: 6px;
+    }
+    .index3 h5 {
+        position: absolute;
+        top: 196%;
+        left: 53.5%;
+        text-align: center;
+        font-size: 6px;
+    }
+    .index4 h5 {
+        position: absolute;
+        top: 186%;
+        left: 80.5%;
+        text-align: center;
+        font-size: 6px;
+    }
+}
+
+@media (max-width:375px) {
+    .main_roadmap {
+        height: 100%;
+    }
+    .banner_product_right ul li {
+        font-size: 7px;
+    }
+    .banner_product_right ul {
+        margin-top: -210px;
+    }
+    .banner_product {
+        width: 100%;
+        height: 252px;
+    }
+    .banner_product_left img {
+        width: 200px;
+        height: 198px;
+        margin-top: -225px;
+        margin-left: 22px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 81%;
+        width: 72px !important;
+    }
+    .index1 h5 {
+        position: absolute;
+        top: 221%;
+        left: 7%;
+        text-align: center;
+        font-size: 6px;
+    }
+    .index2 h5 {
+        position: absolute;
+        top: 204%;
+        left: 30.5%;
+        font-size: 6px;
+    }
+    .index3 h5 {
+        position: absolute;
+        top: 214%;
+        left: 53.1%;
+        text-align: center;
+        font-size: 6px;
+    }
+    .index4 h5 {
+        position: absolute;
+        top: 204%;
+        left: 80%;
+        text-align: center;
+        font-size: 6px;
+    }
+}
+
+@media (max-width:320px) {
+    .banner_product_right ul li {
+        font-size: 7px;
+    }
+    .box-in4 img {
+        width: 141px !important;
+        position: relative;
+    }
+    .box-in4 h3 {
+        width: 159px !important;
+        position: absolute;
+        top: 31%;
+        left: 2%;
+        /* text-align: center; */
+        font-size: 13px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        width: 64px !important;
+    }
+    .index1 h5 {
+        position: absolute;
+        top: 249%;
+        left: 7.2%;
+        text-align: center;
+        font-size: 5px;
+    }
+    .index2 h5 {
+        position: absolute;
+        top: 232%;
+        left: 30.5%;
+        font-size: 5px;
+    }
+    .index3 h5 {
+        position: absolute;
+        top: 242%;
+        left: 53.1%;
+        text-align: center;
+        font-size: 5px;
+    }
+    .index4 h5 {
+        position: absolute;
+        top: 232%;
+        left: 80%;
+        text-align: center;
+        font-size: 5px;
+    }
+}
