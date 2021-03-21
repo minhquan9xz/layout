@@ -210,7 +210,7 @@
         <i>PRODUCTS</i>
       </div>
     </div>
-    <div class="container">
+    <div class="container hiuhiu">
       <div class="row banner_roadmap">
         <div class="col-3 box-in4">
           <!-- <div class="number ">
@@ -381,7 +381,7 @@
               COMING SOON
             </button>
           </div>
-          <img src="src\assets\rabbiz\Layer116.png" alt="">
+          <img src="../assets/rabbiz/Layer116.png" alt="" />
         </div>
       </div>
       <div class="row rabbiz_token">
@@ -424,34 +424,82 @@
     </div>
 
     <div class="main_roadmap">
-     <img src="src\assets\rabbiz\Group127.png" alt="">
-      <div class="index1">
-        <h5>
-          Start of Airdrop <br />
-          Rbiz 01/03/2021
-        </h5>
+      <div class="footer_product">
+        <div class="title_product">
+          <i>ROADMAP</i>
+        </div>
       </div>
-      <div class="index2">
-        <h5>
-          RBIZ be listed on <br />
-          Vindax on March <br />
-          2021- April 2021
-        </h5>
-      </div>
-      <div class="index3">
-        <h5>
-          RRBIZ be listed <br />
-          on Cointiger in June <br />
-          2021 - 7/2021
-        </h5>
-      </div>
-      <div class="index4">
-        <h5>
-          RBIZ be listed on <br />
-          Binance exchange <br />
-          in November <br />
-          08/2021-12/2021
-        </h5>
+    </div>
+    <div class="banner_main_roadmap">
+      <div class="responsivemobile">
+        <img src="../assets/rabbiz/Group 107.png" alt="" />
+        <div class="container">
+          <div class="row category_roadmap">
+            <div class="col-3 rabbiz_green">
+              <div class="cover_green">
+                <div class="child_green">
+                  <div class="green_top">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="green_button">
+                    <h5>Start of Airdrop Rbiz 01/03/2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_blue">
+              <div class="cover_green1">
+                <div class="child_green1">
+                  <div class="green_top1">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="green_button1">
+                    <h5>RBIZ be listed on Vindax on March 2021-April 2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location1">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_pink">
+              <div class="cover_green2">
+                <div class="child_green2">
+                  <div class="green_top2">
+                    <i class="far fa-lightbulb"></i>
+                  </div>
+                  <div class="green_button2">
+                    <h5>RRBIZ be listed on Conintiger in June 2021-7/2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location2">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_orange">
+              <div class="cover_green3">
+                <div class="child_green3">
+                  <div class="green_top3">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="green_button3">
+                    <h5>
+                      RBIZ be listed on Binance exchange in November
+                      08/2021-12/2021
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location3">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -474,17 +522,11 @@ jQuery(document).ready(function () {
 export default {};
 </script>
 <style>
-.all{
-  width: 1440px;
-}
+
 * {
   margin: 0;
   padding: 0;
 }
-/* .navbar{
-  display: none !important;
-} */
-
 .advantages_list_text {
   display: flex;
   justify-content: center;
